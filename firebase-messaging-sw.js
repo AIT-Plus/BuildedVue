@@ -6,7 +6,13 @@ importScripts('https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js');
 // Initialize the Firebase app in the service worker by passing in the messagingSenderId.
 firebase.initializeApp({
-  'messagingSenderId': '154209881918' // 4の messagingSenderId をコピペ
+  apiKey: "AIzaSyBmwUmgqOAOTuX8z2t1GT0NkWKRcSnLVIo",
+  authDomain: "ait-plus.firebaseapp.com",
+  projectId: "ait-plus",
+  storageBucket: "ait-plus.appspot.com",
+  messagingSenderId: "154209881918",
+  appId: "1:154209881918:web:1f850f4f430c1f7d3e666f",
+  measurementId: "G-H9L2SR9R16"
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background messages.
